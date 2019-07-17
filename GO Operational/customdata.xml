@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bmtcustomdata><namespace name="visuals"><object name="[]"><property name="BMTFW_Layout_Version">long:36</property><property name="BMTFW_Layout"><![CDATA[string:[gosales].[PRODUCT_NAME_LOOKUP]
+	dx=247,109
+	parent=gosales
+	x=574,983
+[gosales].[Product Type & Product]
+	dx=199,99
+	parent=gosales
+	x=597,809
+[gosales].[Retailer & Retailer Site]
+	dx=225,229
+	parent=gosales
+	x=24,542
+[gosales].[Retailer Site Country (alias)]
+	dx=221,69
+	parent=gosales
+	x=36,398
+[gosales].[Retailer Site Region (alias)]
+	dx=216,69
+	parent=gosales
+	x=40,273
+[gosales].[RETAILER_TYPE]
+	dx=192,71
+	parent=gosales
+	x=39,832
+[gosales].[RETURN_REASON]
+	dx=179,117
+	parent=gosales
+	x=79,964
+[gosales].[SALES_REGION]
+	dx=176,74
+	parent=gosales
+	x=624,168
+[gosales].[Staff Branch (alias)]
+	dx=184,102
+	parent=gosales
+	x=899,289
+[gosales].[Staff Country (alias)]
+	dx=177,89
+	parent=gosales
+	x=903,155
+[gosales].[Staff Region (alias)]
+	dx=172,69
+	parent=gosales
+	x=905,41
+[].[packages]
+	view=0,0
+	zoom=1.000000
+[]
+	NavigationRect=1414,568,1714,1037
+	Notation=7733286
+	ShowGrid=1
+	Snap=99
+	font=Arial Narrow
+	lod=13
+	tc=323232
+	view=0,0
+	viewStyle=2
+	zoom=1.000000
+[gosales].[TIME_DIMENSION]
+	dx=179,64
+	parent=gosales
+	x=610,380
+[gosales].[Time (Close) (alias)]
+	dx=185,72
+	parent=gosales
+	x=577,76
+[gosales].[Time (Ship) (alias)]
+	dx=181,61
+	parent=gosales
+	x=564,2
+[gosales].[Current Year]
+	dx=134,49
+	parent=gosales
+	x=531,531
+[gosales].[PRODUCT]
+	dx=206,96
+	parent=Original Product Objects
+	x=10,30
+[gosales].[PRODUCT_TYPE]
+	dx=185,90
+	parent=Original Product Objects
+	x=256,33
+[gosales].[Original Product Objects]
+	c=89c6fd
+	dx=200,28
+	expanded=f
+	parent=gosales
+	view=0,0
+	x=9,157
+	zoom=1.000000
+[gosales].[RETAILER]
+	dx=182,129
+	parent=Original Retailer Objects
+	x=52,727
+[gosales].[RETAILER_SITE]
+	dx=210,130
+	parent=Original Retailer Objects
+	x=40,541
+[gosales].[Original Retailer Objects]
+	c=99b2c7
+	dx=200,28
+	expanded=f
+	parent=gosales
+	x=8,198
+[gosales].[ORDER_DETAILS]
+	dx=179,209
+	parent=Original Sales & Returns Objects
+	x=10,30
+[gosales].[ORDER_HEADER]
+	dx=206,178
+	parent=Original Sales & Returns Objects
+	x=229,45
+[gosales].[RETURNED_ITEM]
+	dx=168,209
+	parent=Original Sales & Returns Objects
+	x=216,993
+[gosales].[Original Sales & Returns Objects]
+	c=9bdfc4
+	dx=200,28
+	expanded=f
+	parent=gosales
+	x=10,113
+[gosales].[Model Calculations]
+	c=99b2c7
+	dx=200,28
+	expanded=t
+	parent=Reusable Objects
+	x=10,57
+[gosales].[Reusable Objects]
+	c=89c6fd
+	dx=200,28
+	expanded=f
+	parent=gosales
+	x=9,237
+[gosales].[Find Order Information]
+	dx=194,189
+	parent=Stored Procedures
+	x=10,57
+[gosales].[AssignStaff]
+	dx=180,29
+	parent=Stored Procedures
+	x=230,57
+[gosales].[Stored Procedures]
+	c=d8a77d
+	dx=420,256
+	expanded=t
+	parent=gosales
+	x=561,561
+[gosales]
+	c=d8a77d
+	dx=1305,1107
+	expanded=t
+	parent=Foundation Objects View
+	view=0,62
+	x=10,57
+	zoom=0.948765
+[Foundation Objects View]
+	c=9bdfc4
+	dx=1325,1174
+	expanded=t
+	parent=GO Operational Model
+	x=10,57
+[GO Operational Model]
+	c=9bdfc4
+	dx=1190,1306
+	expanded=t
+	parent=GO Operational
+	view=0,0
+	x=10,57
+	zoom=1.000000
+[Sales (query)].[Sales Fact]
+	dx=121,169
+	parent=Sales (query)
+	x=161,569
+[Sales (query)].[Branch by Location]
+	dx=175,229
+	parent=Sales (query)
+	x=228,57
+[Sales (query)].[Order Codes]
+	dx=134,69
+	parent=Sales (query)
+	x=10,785
+[Sales (query)].[Order Method]
+	dx=141,69
+	parent=Sales (query)
+	x=322,569
+[Sales (query)].[Products]
+	dx=127,229
+	parent=Sales (query)
+	x=10,313
+[Sales (query)].[Retailer by Location]
+	dx=178,229
+	parent=Sales (query)
+	x=10,57
+[Sales (query)].[Staff by Location]
+	dx=160,229
+	parent=Sales (query)
+	x=443,57
+[Sales (query)].[Time]
+	dx=111,189
+	parent=Sales (query)
+	x=10,569
+[Sales (query)].[Time (Close)]
+	dx=143,189
+	parent=Sales (query)
+	x=177,313
+[Sales (query)].[Time (Ship)]
+	dx=137,189
+	parent=Sales (query)
+	x=360,313
+[Sales (query)]
+	c=73d3ac
+	dx=613,864
+	expanded=t
+	parent=GO Operational Sales (query)
+	x=10,57
+[Returns (query)].[Returns Fact]
+	dx=135,49
+	parent=Returns (query)
+	x=365,569
+[Returns (query)].[Branch by Location]
+	dx=175,229
+	parent=Returns (query)
+	x=228,57
+[Returns (query)].[Order Codes]
+	dx=134,69
+	parent=Returns (query)
+	x=191,569
+[Returns (query)].[Order Method]
+	dx=141,69
+	parent=Returns (query)
+	x=10,569
+[Returns (query)].[Products]
+	dx=127,229
+	parent=Returns (query)
+	x=10,313
+[Returns (query)].[Retailer by Location]
+	dx=178,229
+	parent=Returns (query)
+	x=10,57
+[Returns (query)].[Return Reason]
+	dx=164,69
+	parent=Returns (query)
+	x=328,313
+[Returns (query)].[Staff by Location]
+	dx=160,229
+	parent=Returns (query)
+	x=443,57
+[Returns (query)].[Time]
+	dx=111,189
+	parent=Returns (query)
+	x=177,313
+[Returns (query)]
+	c=568ef6
+	dx=613,648
+	expanded=t
+	parent=GO Operational Sales (query)
+	x=663,57
+[Sales Targets (query)].[Sales Target Fact]
+	dx=162,49
+	parent=Sales Targets (query)
+	x=161,569
+[Sales Targets (query)].[Products]
+	dx=127,229
+	parent=Sales Targets (query)
+	x=10,313
+[Sales Targets (query)].[Retailer by Location]
+	dx=178,229
+	parent=Sales Targets (query)
+	x=10,57
+[Sales Targets (query)].[Sales Target by Location]
+	dx=206,109
+	parent=Sales Targets (query)
+	x=177,313
+[Sales Targets (query)].[Staff by Location]
+	dx=160,229
+	parent=Sales Targets (query)
+	x=228,57
+[Sales Targets (query)].[Time]
+	dx=111,189
+	parent=Sales Targets (query)
+	x=10,569
+[Sales Targets (query)]
+	c=527ca5
+	dx=398,768
+	expanded=t
+	parent=GO Operational Sales (query)
+	x=10,948
+[Retailer Location Filters]
+	c=bf8cbc
+	dx=210,38
+	expanded=t
+	parent=GO Operational Sales (query)
+	x=448,948
+[GO Operational Sales (query)]
+	c=99f7ff
+	dx=1286,1726
+	expanded=t
+	parent=Presentation View
+	x=10,57
+[Call Center Application].[Find Order Information]
+	dx=194,209
+	parent=Call Center Application
+	x=10,57
+[Call Center Application]
+	c=9bdfc4
+	dx=214,276
+	expanded=t
+	parent=Presentation View
+	x=421,501
+[Presentation View]
+	c=758698
+	dx=1306,1793
+	expanded=t
+	parent=GO Operational Model
+	x=10,24
+[Consolidation View].[Sales Fact]
+	dx=121,109
+	parent=Consolidation View
+	x=423,313
+[Consolidation View].[Returns Fact]
+	dx=135,49
+	parent=Consolidation View
+	x=212,665
+[Consolidation View].[Sales Target Fact]
+	dx=162,49
+	parent=Consolidation View
+	x=10,665
+[Consolidation View].[Branch by Location]
+	dx=175,229
+	parent=Consolidation View
+	x=228,57
+[Consolidation View].[Order Codes]
+	dx=134,69
+	parent=Consolidation View
+	x=395,569
+[Consolidation View].[Order Method]
+	dx=141,69
+	parent=Consolidation View
+	x=214,569
+[Consolidation View].[Products]
+	dx=127,229
+	parent=Consolidation View
+	x=10,313
+[Consolidation View].[Retailer by Location]
+	dx=178,229
+	parent=Consolidation View
+	x=10,57
+[Consolidation View].[Return Reason]
+	dx=164,69
+	parent=Consolidation View
+	x=10,569
+[Consolidation View].[Sales Target by Location]
+	dx=206,109
+	parent=Consolidation View
+	x=177,313
+[Consolidation View].[Staff by Location]
+	dx=160,229
+	parent=Consolidation View
+	x=443,57
+[Consolidation View].[Time]
+	dx=111,189
+	parent=Consolidation View
+	x=150,150
+[Consolidation View].[Time (Close)]
+	dx=143,189
+	parent=Consolidation View
+	x=180,180
+[Consolidation View].[Time (Ship)]
+	dx=137,189
+	parent=Consolidation View
+	x=210,210
+[Consolidation View].[Retailer Location Filters]
+	c=d8a77d
+	dx=210,38
+	expanded=t
+	parent=Model Filters
+	x=10,57
+[Consolidation View].[Model Filters]
+	c=9bdfc4
+	dx=230,105
+	expanded=t
+	parent=Consolidation View
+	x=240,240
+[Consolidation View]
+	c=bf8cbc
+	dx=613,724
+	expanded=t
+	parent=GO Operational Model
+	x=10,24
+[gosales].[Sales Fact]
+	dx=183,229
+	parent=gosales
+	x=316,598
+[gosales].[SALES_TARGET]
+	dx=206,209
+	parent=gosales
+	x=863,612
+[gosales].[Returns Fact]
+	dx=168,229
+	parent=gosales
+	x=349,868
+[gosales].[BRANCH]
+	dx=233,151
+	parent=gosales
+	x=307,368
+[gosales].[Branch Country (alias)]
+	dx=271,89
+	parent=gosales
+	x=288,205
+[gosales].[Branch Region (alias)]
+	dx=265,69
+	parent=gosales
+	x=292,100
+[gosales].[COUNTRY]
+	dx=218,69
+	parent=gosales
+	x=607,290
+[gosales].[EMPLOYEE]
+	dx=171,115
+	parent=gosales
+	x=602,571
+[gosales].[Employee (Human Resources) (alisas)]
+	dx=285,229
+	parent=gosales
+	x=471,471
+[gosales].[EMPLOYEE_HISTORY]
+	dx=235,115
+	parent=gosales
+	x=873,438
+[gosales].[Manager]
+	dx=138,189
+	parent=gosales
+	x=501,501
+[gosales].[Order Codes]
+	dx=134,69
+	parent=gosales
+	x=609,707
+[gosales].[ORDER_METHOD]
+	dx=191,82
+	parent=gosales
+	x=573,466
+[gosales].[POSITION_LOOKUP]
+	dx=198,73
+	parent=gosales
+	x=1097,302
+[gosales].[PRODUCT_LINE]
+	dx=214,78
+	parent=gosales
+	x=863,989
+]]></property></object></namespace></bmtcustomdata>
