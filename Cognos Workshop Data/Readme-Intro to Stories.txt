@@ -1,0 +1,2 @@
+This Introduction to Stories workshop uses the assets developed in the Introduction to Dashboards workshop.  
+Users will need those assets in order to Pin the content which is then used to create the story scenes.
